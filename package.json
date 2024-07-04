@@ -1,0 +1,28 @@
+{
+  "name": "@trives/mendixutils",
+  "version": "1.0",
+  "description": "Sample automatic generation of a Mendix application",
+  "scripts": {
+    "build": "npx tsc",
+    "clean": "rmdir /s /q \"./build\"",
+    "sample": "npx tsc && node ./build/sample.js"
+  },
+  "keywords": [
+    "Mendix",
+    "TypeScript",
+    "Automated generation",
+    "Sample project"
+  ],
+  "author": "Trives IT",
+  "license": "GNU",
+  "dependencies": {
+    "mendixmodelsdk": "^4.85.0",
+    "mendixplatformsdk": "^5.1.2",
+    "node": "^18.19.1",
+    "ts-node": "^10.9.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "mendixutils"
+  }
+}
